@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="/en/contact.css" />
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="home.html">The thread repository</a>
+      <img src="/pics/style/favicon.png" style="width: 35px;">
+
+      <nav class="nav">
+        <a  href="home.html">Home</a>
+        <a href="sales.html">Sales</a>
+        <a href="article.html">Articles</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <header class="pagehead">
+      <h1>Contact</h1>
+      <p>Questions about a lot, condition reports, shipping, or valuations — message us anytime.</p>
+    </header>
+
+    <section class="layout">
+
+      <!-- Left: form -->
+      <section class="card">
+        <div class="card__head">
+          <h2>Send a message</h2>
+          <p>We usually reply within 1–2 business days.</p>
+        </div>
+
+        <form class="form" action="#" method="post">
+          <div class="grid2">
+            <div class="row">
+              <label class="label" for="name">Full name</label>
+              <input class="input" id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="row">
+              <label class="label" for="email">Email</label>
+              <input class="input" id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+
+          <div class="grid2">
+            <div class="row">
+              <label class="label" for="phone">Phone </label>
+              <input class="input" id="phone" name="phone" type="tel" placeholder="+33 …" />
+            </div>
+
+            <div class="row">
+              <label class="label" for="topic">Topic</label>
+              <select class="input" id="topic" name="topic">
+                <option>General enquiry</option>
+                <option>Item / lot enquiry</option>
+                <option>Condition report</option>
+                <option>Shipping & delivery</option>
+                <option>Valuation / consignment</option>
+                <option>Press</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="label" for="ref">Lot / reference (optional)</label>
+            <input class="input" id="ref" name="ref" type="text" placeholder="e.g. Lot 112 / Item ID / Article title" />
+          </div>
+
+          <div class="row">
+            <label class="label" for="message">Message</label>
+            <textarea class="input textarea" id="message" name="message" placeholder="Write your message..." required></textarea>
+            <p class="hint">Please include relevant details (title, lot number, auction date, etc.).</p>
+          </div>
+
+          <div class="actions">
+            <button class="btn btn--ghost" type="reset">Clear</button>
+            <button class="btn btn--solid" type="submit">Send message</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Right: contact details -->
+      <aside class="sidebar">
+
+        <section class="card">
+          <div class="card__head">
+            <h2>Contact details</h2>
+            <p>Prefer email or phone? Reach us directly.</p>
+          </div>
+
+          <div class="details">
+            <div class="detail">
+              <div class="detail__label">Email</div>
+              <a class="detail__value" href="mailto:sales@example.com">elias.pouilly@ensaama.ney</a>
+            </div>
+
+            <div class="detail">
+              <div class="detail__label">Phone</div>
+              <a class="detail__value" href="tel:+33123456789">07 67 59 35 40</a>
+            </div>
+
+            <div class="detail">
+              <div class="detail__label">Address</div>
+              <div class="detail__value">
+                besançon
+              </div>
+            </div>
+
+            <div class="detail">
+              <div class="detail__label">Hours</div>
+              <div class="detail__value">
+                Mon–Fri: 9:00–17:30<br />
+                Sat: by appointment
+              </div>
+            </div>
+
+            <div class="quick">
+              <a class="btn btn--ghost" href="mailto:sales@example.com?subject=Enquiry%20from%20website">Email us</a>
+              <a class="btn btn--ghost" href="tel:+33123456789">Call now</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card__head">
+            <h2>FAQ</h2>
+            <p>Quick answers to common questions.</p>
+          </div>
+
+          <div class="faq">
+            <details>
+              <summary>How do I request a condition report?</summary>
+              <p>Send the lot number (or link) and we’ll reply with details and additional images if available.</p>
+            </details>
+
+            <details>
+              <summary>Do you ship internationally?</summary>
+              <p>Yes — shipping costs depend on destination, size, and insurance requirements.</p>
+            </details>
+
+            <details>
+              <summary>How do I sell or consign items?</summary>
+              <p>Choose “Valuation / consignment” in the form and describe what you have. Photos help.</p>
+            </details>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card__head">
+            <h2>Map</h2>
+            <p>Optional: embed a map below.</p>
+          </div>
+
+          <div class="map">
+            <!-- Replace the div with a real embed iframe when ready -->
+            <div class="map__placeholder">
+              Map embed placeholder
+            </div>
+          </div>
+        </section>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© 2026 the thread repository</p>
+      <p>
+        <a href="mailto:sales@example.com">elias.pouilly@ensaama.net</a> ·
+       
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
